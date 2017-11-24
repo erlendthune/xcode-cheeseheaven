@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		870AC3C5193BA57F00544F28 /* bg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 870AC3C3193BA57F00544F28 /* bg1.png */; };
+		870AC46A19424F2800544F28 /* StarPing.wav in Resources */ = {isa = PBXBuildFile; fileRef = 870AC46919424F2800544F28 /* StarPing.wav */; };
+		870AC46C1942505300544F28 /* applause.wav in Resources */ = {isa = PBXBuildFile; fileRef = 870AC46B1942505300544F28 /* applause.wav */; };
+		870AC46E1942618D00544F28 /* cheese.png in Resources */ = {isa = PBXBuildFile; fileRef = 870AC46D1942618D00544F28 /* cheese.png */; };
+		870AC470194274C700544F28 /* mousehole.png in Resources */ = {isa = PBXBuildFile; fileRef = 870AC46F194274C600544F28 /* mousehole.png */; };
+		870AC4721942F35500544F28 /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 870AC4711942F35500544F28 /* jump.wav */; };
+		870AC4751943087E00544F28 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 870AC4731943087E00544F28 /* play.png */; };
+		870AC4761943087E00544F28 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 870AC4741943087E00544F28 /* pause.png */; };
+		870AC4781944E98900544F28 /* mousetrap.png in Resources */ = {isa = PBXBuildFile; fileRef = 870AC4771944E98900544F28 /* mousetrap.png */; };
+		870AC47A1944E99F00544F28 /* trap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 870AC4791944E99F00544F28 /* trap.wav */; };
+		8728B497194B7964008D9A9D /* crust.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8728B496194B7964008D9A9D /* crust.jpg */; };
+		8728B499194B7D1B008D9A9D /* elevator.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8728B498194B7D1B008D9A9D /* elevator.wav */; };
+		8728B49B194B8F08008D9A9D /* granite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8728B49A194B8F08008D9A9D /* granite.jpg */; };
+		8728B49D194BAF22008D9A9D /* cheeseheaven.png in Resources */ = {isa = PBXBuildFile; fileRef = 8728B49C194BAF22008D9A9D /* cheeseheaven.png */; };
+		8728B4A1194C2D43008D9A9D /* cement2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8728B49E194C2D43008D9A9D /* cement2.jpg */; };
+		8728B4A2194C2D43008D9A9D /* asphalt2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8728B49F194C2D43008D9A9D /* asphalt2.jpg */; };
+		8728B4A3194C2D43008D9A9D /* asphalt1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8728B4A0194C2D43008D9A9D /* asphalt1.jpg */; };
+		8728B4A8194C96B1008D9A9D /* cobblestone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8728B4A4194C96B1008D9A9D /* cobblestone.jpg */; };
+		8728B4A9194C96B1008D9A9D /* brick2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8728B4A5194C96B1008D9A9D /* brick2.jpg */; };
+		8728B4AB194C96B1008D9A9D /* clay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8728B4A7194C96B1008D9A9D /* clay.jpg */; };
+		8728B4AE194C9780008D9A9D /* fire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8728B4AC194C9780008D9A9D /* fire.jpg */; };
+		8728B4AF194C9780008D9A9D /* cement1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8728B4AD194C9780008D9A9D /* cement1.jpg */; };
+		8728B4B2194E380C008D9A9D /* levelup.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8728B4B0194E380C008D9A9D /* levelup.wav */; };
+		8728B4B3194E380C008D9A9D /* leveldown.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8728B4B1194E380C008D9A9D /* leveldown.wav */; };
+		875B9751193118E900857C5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875B9750193118E900857C5A /* Foundation.framework */; };
+		875B9753193118E900857C5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875B9752193118E900857C5A /* CoreGraphics.framework */; };
+		875B9755193118E900857C5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875B9754193118E900857C5A /* UIKit.framework */; };
+		875B9757193118E900857C5A /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875B9756193118E900857C5A /* SpriteKit.framework */; };
+		875B975D193118EA00857C5A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 875B975B193118EA00857C5A /* InfoPlist.strings */; };
+		875B975F193118EA00857C5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 875B975E193118EA00857C5A /* main.m */; };
+		875B9763193118EA00857C5A /* ETAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 875B9762193118EA00857C5A /* ETAppDelegate.m */; };
+		875B9766193118EA00857C5A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875B9764193118EA00857C5A /* Main_iPhone.storyboard */; };
+		875B9769193118EA00857C5A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875B9767193118EA00857C5A /* Main_iPad.storyboard */; };
+		875B976C193118EA00857C5A /* ETViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875B976B193118EA00857C5A /* ETViewController.m */; };
+		875B976F193118EA00857C5A /* ETMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 875B976E193118EA00857C5A /* ETMyScene.m */; };
+		875B9773193118EA00857C5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875B9772193118EA00857C5A /* Images.xcassets */; };
+		875B977A193118EA00857C5A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875B9779193118EA00857C5A /* XCTest.framework */; };
+		875B977B193118EA00857C5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875B9750193118E900857C5A /* Foundation.framework */; };
+		875B977C193118EA00857C5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875B9754193118E900857C5A /* UIKit.framework */; };
+		875B9784193118EA00857C5A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 875B9782193118EA00857C5A /* InfoPlist.strings */; };
+		875B9786193118EA00857C5A /* MoneyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 875B9785193118EA00857C5A /* MoneyTests.m */; };
+		87BF4FEF195104340018835F /* hearts.sks in Resources */ = {isa = PBXBuildFile; fileRef = 87BF4FEE195104340018835F /* hearts.sks */; };
+		87BF4FF219510FC30018835F /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 87BF4FF019510FC30018835F /* heart.png */; };
+		87BF4FF319510FC30018835F /* successong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 87BF4FF119510FC30018835F /* successong.mp3 */; };
+		87BF4FF5195153B80018835F /* elevatorshort.wav in Resources */ = {isa = PBXBuildFile; fileRef = 87BF4FF4195153B80018835F /* elevatorshort.wav */; };
+		87C6C7AA1989126700E893FE /* audioon.png in Resources */ = {isa = PBXBuildFile; fileRef = 87C6C7A71989126600E893FE /* audioon.png */; };
+		87C6C7AB1989126700E893FE /* audiomute.png in Resources */ = {isa = PBXBuildFile; fileRef = 87C6C7A81989126700E893FE /* audiomute.png */; };
+		87C6C7AC1989126700E893FE /* elevatorsymbol.png in Resources */ = {isa = PBXBuildFile; fileRef = 87C6C7A91989126700E893FE /* elevatorsymbol.png */; };
+		87C6C7AE1989677000E893FE /* lounge.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 87C6C7AD1989677000E893FE /* lounge.mp3 */; };
+		87C6C7B0198FE44400E893FE /* cheesesnow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 87C6C7AF198FE44400E893FE /* cheesesnow.sks */; };
+		87C6C7B21992AAF000E893FE /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 87C6C7B11992AAF000E893FE /* cat.png */; };
+		87C6C7B41992B78000E893FE /* fox.png in Resources */ = {isa = PBXBuildFile; fileRef = 87C6C7B31992B78000E893FE /* fox.png */; };
+		87C6C7B71992BB4100E893FE /* snake.png in Resources */ = {isa = PBXBuildFile; fileRef = 87C6C7B51992BB4100E893FE /* snake.png */; };
+		87C6C7B81992BB4100E893FE /* hawk.png in Resources */ = {isa = PBXBuildFile; fileRef = 87C6C7B61992BB4100E893FE /* hawk.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		875B977D193118EA00857C5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 875B9745193118E900857C5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 875B974C193118E900857C5A;
+			remoteInfo = Money;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		870AC3C3193BA57F00544F28 /* bg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg1.png; sourceTree = "<group>"; };
+		870AC46919424F2800544F28 /* StarPing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = StarPing.wav; sourceTree = "<group>"; };
+		870AC46B1942505300544F28 /* applause.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = applause.wav; sourceTree = "<group>"; };
+		870AC46D1942618D00544F28 /* cheese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cheese.png; sourceTree = "<group>"; };
+		870AC46F194274C600544F28 /* mousehole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mousehole.png; sourceTree = "<group>"; };
+		870AC4711942F35500544F28 /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
+		870AC4731943087E00544F28 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		870AC4741943087E00544F28 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		870AC4771944E98900544F28 /* mousetrap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mousetrap.png; sourceTree = "<group>"; };
+		870AC4791944E99F00544F28 /* trap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = trap.wav; sourceTree = "<group>"; };
+		8728B496194B7964008D9A9D /* crust.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = crust.jpg; sourceTree = "<group>"; };
+		8728B498194B7D1B008D9A9D /* elevator.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = elevator.wav; sourceTree = "<group>"; };
+		8728B49A194B8F08008D9A9D /* granite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = granite.jpg; sourceTree = "<group>"; };
+		8728B49C194BAF22008D9A9D /* cheeseheaven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cheeseheaven.png; sourceTree = "<group>"; };
+		8728B49E194C2D43008D9A9D /* cement2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cement2.jpg; sourceTree = "<group>"; };
+		8728B49F194C2D43008D9A9D /* asphalt2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = asphalt2.jpg; sourceTree = "<group>"; };
+		8728B4A0194C2D43008D9A9D /* asphalt1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = asphalt1.jpg; sourceTree = "<group>"; };
+		8728B4A4194C96B1008D9A9D /* cobblestone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cobblestone.jpg; sourceTree = "<group>"; };
+		8728B4A5194C96B1008D9A9D /* brick2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brick2.jpg; sourceTree = "<group>"; };
+		8728B4A7194C96B1008D9A9D /* clay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clay.jpg; sourceTree = "<group>"; };
+		8728B4AC194C9780008D9A9D /* fire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fire.jpg; sourceTree = "<group>"; };
+		8728B4AD194C9780008D9A9D /* cement1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cement1.jpg; sourceTree = "<group>"; };
+		8728B4B0194E380C008D9A9D /* levelup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = levelup.wav; sourceTree = "<group>"; };
+		8728B4B1194E380C008D9A9D /* leveldown.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = leveldown.wav; sourceTree = "<group>"; };
+		875B974D193118E900857C5A /* Cheese Heaven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cheese Heaven.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		875B9750193118E900857C5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		875B9752193118E900857C5A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		875B9754193118E900857C5A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		875B9756193118E900857C5A /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		875B975A193118EA00857C5A /* Cheese Heaven-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cheese Heaven-Info.plist"; sourceTree = "<group>"; };
+		875B975C193118EA00857C5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		875B975E193118EA00857C5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		875B9760193118EA00857C5A /* Cheese Heaven-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cheese Heaven-Prefix.pch"; sourceTree = "<group>"; };
+		875B9761193118EA00857C5A /* ETAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETAppDelegate.h; sourceTree = "<group>"; };
+		875B9762193118EA00857C5A /* ETAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETAppDelegate.m; sourceTree = "<group>"; };
+		875B9765193118EA00857C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		875B9768193118EA00857C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		875B976A193118EA00857C5A /* ETViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETViewController.h; sourceTree = "<group>"; };
+		875B976B193118EA00857C5A /* ETViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETViewController.m; sourceTree = "<group>"; };
+		875B976D193118EA00857C5A /* ETMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETMyScene.h; sourceTree = "<group>"; };
+		875B976E193118EA00857C5A /* ETMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETMyScene.m; sourceTree = "<group>"; };
+		875B9772193118EA00857C5A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		875B9778193118EA00857C5A /* Cheese HeavenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cheese HeavenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		875B9779193118EA00857C5A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		875B9781193118EA00857C5A /* Cheese HeavenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cheese HeavenTests-Info.plist"; sourceTree = "<group>"; };
+		875B9783193118EA00857C5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		875B9785193118EA00857C5A /* MoneyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoneyTests.m; sourceTree = "<group>"; };
+		87BF4FEE195104340018835F /* hearts.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = hearts.sks; sourceTree = "<group>"; };
+		87BF4FF019510FC30018835F /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		87BF4FF119510FC30018835F /* successong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = successong.mp3; sourceTree = "<group>"; };
+		87BF4FF4195153B80018835F /* elevatorshort.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = elevatorshort.wav; sourceTree = "<group>"; };
+		87C6C7A71989126600E893FE /* audioon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audioon.png; sourceTree = "<group>"; };
+		87C6C7A81989126700E893FE /* audiomute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audiomute.png; sourceTree = "<group>"; };
+		87C6C7A91989126700E893FE /* elevatorsymbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elevatorsymbol.png; sourceTree = "<group>"; };
+		87C6C7AD1989677000E893FE /* lounge.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lounge.mp3; sourceTree = "<group>"; };
+		87C6C7AF198FE44400E893FE /* cheesesnow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = cheesesnow.sks; sourceTree = "<group>"; };
+		87C6C7B11992AAF000E893FE /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		87C6C7B31992B78000E893FE /* fox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fox.png; sourceTree = "<group>"; };
+		87C6C7B51992BB4100E893FE /* snake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snake.png; sourceTree = "<group>"; };
+		87C6C7B61992BB4100E893FE /* hawk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hawk.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		875B974A193118E900857C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875B9753193118E900857C5A /* CoreGraphics.framework in Frameworks */,
+				875B9755193118E900857C5A /* UIKit.framework in Frameworks */,
+				875B9757193118E900857C5A /* SpriteKit.framework in Frameworks */,
+				875B9751193118E900857C5A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875B9775193118EA00857C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875B977A193118EA00857C5A /* XCTest.framework in Frameworks */,
+				875B977C193118EA00857C5A /* UIKit.framework in Frameworks */,
+				875B977B193118EA00857C5A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		875B9744193118E900857C5A = {
+			isa = PBXGroup;
+			children = (
+				87C6C7AF198FE44400E893FE /* cheesesnow.sks */,
+				87BF4FEE195104340018835F /* hearts.sks */,
+				875B9758193118EA00857C5A /* Money */,
+				875B977F193118EA00857C5A /* MoneyTests */,
+				875B974F193118E900857C5A /* Frameworks */,
+				875B974E193118E900857C5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		875B974E193118E900857C5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				875B974D193118E900857C5A /* Cheese Heaven.app */,
+				875B9778193118EA00857C5A /* Cheese HeavenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		875B974F193118E900857C5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				875B9750193118E900857C5A /* Foundation.framework */,
+				875B9752193118E900857C5A /* CoreGraphics.framework */,
+				875B9754193118E900857C5A /* UIKit.framework */,
+				875B9756193118E900857C5A /* SpriteKit.framework */,
+				875B9779193118EA00857C5A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		875B9758193118EA00857C5A /* Money */ = {
+			isa = PBXGroup;
+			children = (
+				875B9761193118EA00857C5A /* ETAppDelegate.h */,
+				875B9762193118EA00857C5A /* ETAppDelegate.m */,
+				875B9764193118EA00857C5A /* Main_iPhone.storyboard */,
+				875B9767193118EA00857C5A /* Main_iPad.storyboard */,
+				875B976A193118EA00857C5A /* ETViewController.h */,
+				875B976B193118EA00857C5A /* ETViewController.m */,
+				875B976D193118EA00857C5A /* ETMyScene.h */,
+				875B976E193118EA00857C5A /* ETMyScene.m */,
+				875B9772193118EA00857C5A /* Images.xcassets */,
+				875B9759193118EA00857C5A /* Supporting Files */,
+			);
+			path = Money;
+			sourceTree = "<group>";
+		};
+		875B9759193118EA00857C5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87C6C7B51992BB4100E893FE /* snake.png */,
+				87C6C7B61992BB4100E893FE /* hawk.png */,
+				87C6C7B31992B78000E893FE /* fox.png */,
+				87C6C7B11992AAF000E893FE /* cat.png */,
+				87C6C7AD1989677000E893FE /* lounge.mp3 */,
+				87C6C7A71989126600E893FE /* audioon.png */,
+				87C6C7A81989126700E893FE /* audiomute.png */,
+				87C6C7A91989126700E893FE /* elevatorsymbol.png */,
+				87BF4FF4195153B80018835F /* elevatorshort.wav */,
+				87BF4FF019510FC30018835F /* heart.png */,
+				87BF4FF119510FC30018835F /* successong.mp3 */,
+				8728B4B0194E380C008D9A9D /* levelup.wav */,
+				8728B4B1194E380C008D9A9D /* leveldown.wav */,
+				8728B4AC194C9780008D9A9D /* fire.jpg */,
+				8728B4AD194C9780008D9A9D /* cement1.jpg */,
+				8728B4A4194C96B1008D9A9D /* cobblestone.jpg */,
+				8728B4A5194C96B1008D9A9D /* brick2.jpg */,
+				8728B4A7194C96B1008D9A9D /* clay.jpg */,
+				8728B49E194C2D43008D9A9D /* cement2.jpg */,
+				8728B49F194C2D43008D9A9D /* asphalt2.jpg */,
+				8728B4A0194C2D43008D9A9D /* asphalt1.jpg */,
+				8728B49C194BAF22008D9A9D /* cheeseheaven.png */,
+				8728B49A194B8F08008D9A9D /* granite.jpg */,
+				8728B498194B7D1B008D9A9D /* elevator.wav */,
+				8728B496194B7964008D9A9D /* crust.jpg */,
+				870AC4791944E99F00544F28 /* trap.wav */,
+				870AC4771944E98900544F28 /* mousetrap.png */,
+				870AC4731943087E00544F28 /* play.png */,
+				870AC4741943087E00544F28 /* pause.png */,
+				870AC4711942F35500544F28 /* jump.wav */,
+				870AC46F194274C600544F28 /* mousehole.png */,
+				870AC46D1942618D00544F28 /* cheese.png */,
+				870AC46B1942505300544F28 /* applause.wav */,
+				870AC46919424F2800544F28 /* StarPing.wav */,
+				870AC3C3193BA57F00544F28 /* bg1.png */,
+				875B975A193118EA00857C5A /* Cheese Heaven-Info.plist */,
+				875B975B193118EA00857C5A /* InfoPlist.strings */,
+				875B975E193118EA00857C5A /* main.m */,
+				875B9760193118EA00857C5A /* Cheese Heaven-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		875B977F193118EA00857C5A /* MoneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				875B9785193118EA00857C5A /* MoneyTests.m */,
+				875B9780193118EA00857C5A /* Supporting Files */,
+			);
+			path = MoneyTests;
+			sourceTree = "<group>";
+		};
+		875B9780193118EA00857C5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				875B9781193118EA00857C5A /* Cheese HeavenTests-Info.plist */,
+				875B9782193118EA00857C5A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		875B974C193118E900857C5A /* Cheese Heaven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 875B9789193118EA00857C5A /* Build configuration list for PBXNativeTarget "Cheese Heaven" */;
+			buildPhases = (
+				875B9749193118E900857C5A /* Sources */,
+				875B974A193118E900857C5A /* Frameworks */,
+				875B974B193118E900857C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cheese Heaven";
+			productName = Money;
+			productReference = 875B974D193118E900857C5A /* Cheese Heaven.app */;
+			productType = "com.apple.product-type.application";
+		};
+		875B9777193118EA00857C5A /* Cheese HeavenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 875B978C193118EA00857C5A /* Build configuration list for PBXNativeTarget "Cheese HeavenTests" */;
+			buildPhases = (
+				875B9774193118EA00857C5A /* Sources */,
+				875B9775193118EA00857C5A /* Frameworks */,
+				875B9776193118EA00857C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				875B977E193118EA00857C5A /* PBXTargetDependency */,
+			);
+			name = "Cheese HeavenTests";
+			productName = MoneyTests;
+			productReference = 875B9778193118EA00857C5A /* Cheese HeavenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		875B9745193118E900857C5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ET;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Erlend Thune";
+				TargetAttributes = {
+					875B974C193118E900857C5A = {
+						DevelopmentTeam = 3B9MVBS2CK;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+					875B9777193118EA00857C5A = {
+						TestTargetID = 875B974C193118E900857C5A;
+					};
+				};
+			};
+			buildConfigurationList = 875B9748193118E900857C5A /* Build configuration list for PBXProject "Cheese Heaven" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 875B9744193118E900857C5A;
+			productRefGroup = 875B974E193118E900857C5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				875B974C193118E900857C5A /* Cheese Heaven */,
+				875B9777193118EA00857C5A /* Cheese HeavenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		875B974B193118E900857C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C6C7B0198FE44400E893FE /* cheesesnow.sks in Resources */,
+				87C6C7AE1989677000E893FE /* lounge.mp3 in Resources */,
+				870AC46A19424F2800544F28 /* StarPing.wav in Resources */,
+				8728B4AE194C9780008D9A9D /* fire.jpg in Resources */,
+				870AC46C1942505300544F28 /* applause.wav in Resources */,
+				87BF4FEF195104340018835F /* hearts.sks in Resources */,
+				87C6C7B41992B78000E893FE /* fox.png in Resources */,
+				87C6C7AA1989126700E893FE /* audioon.png in Resources */,
+				87C6C7B81992BB4100E893FE /* hawk.png in Resources */,
+				87C6C7AB1989126700E893FE /* audiomute.png in Resources */,
+				87C6C7B71992BB4100E893FE /* snake.png in Resources */,
+				8728B4A2194C2D43008D9A9D /* asphalt2.jpg in Resources */,
+				87BF4FF319510FC30018835F /* successong.mp3 in Resources */,
+				87BF4FF5195153B80018835F /* elevatorshort.wav in Resources */,
+				875B9773193118EA00857C5A /* Images.xcassets in Resources */,
+				8728B4A1194C2D43008D9A9D /* cement2.jpg in Resources */,
+				870AC4781944E98900544F28 /* mousetrap.png in Resources */,
+				875B9769193118EA00857C5A /* Main_iPad.storyboard in Resources */,
+				8728B4A3194C2D43008D9A9D /* asphalt1.jpg in Resources */,
+				8728B49D194BAF22008D9A9D /* cheeseheaven.png in Resources */,
+				875B9766193118EA00857C5A /* Main_iPhone.storyboard in Resources */,
+				8728B499194B7D1B008D9A9D /* elevator.wav in Resources */,
+				8728B4B2194E380C008D9A9D /* levelup.wav in Resources */,
+				8728B4AF194C9780008D9A9D /* cement1.jpg in Resources */,
+				8728B497194B7964008D9A9D /* crust.jpg in Resources */,
+				8728B4A9194C96B1008D9A9D /* brick2.jpg in Resources */,
+				875B975D193118EA00857C5A /* InfoPlist.strings in Resources */,
+				870AC4761943087E00544F28 /* pause.png in Resources */,
+				870AC4721942F35500544F28 /* jump.wav in Resources */,
+				870AC4751943087E00544F28 /* play.png in Resources */,
+				87C6C7AC1989126700E893FE /* elevatorsymbol.png in Resources */,
+				8728B49B194B8F08008D9A9D /* granite.jpg in Resources */,
+				87C6C7B21992AAF000E893FE /* cat.png in Resources */,
+				8728B4AB194C96B1008D9A9D /* clay.jpg in Resources */,
+				87BF4FF219510FC30018835F /* heart.png in Resources */,
+				8728B4B3194E380C008D9A9D /* leveldown.wav in Resources */,
+				870AC470194274C700544F28 /* mousehole.png in Resources */,
+				870AC47A1944E99F00544F28 /* trap.wav in Resources */,
+				870AC46E1942618D00544F28 /* cheese.png in Resources */,
+				8728B4A8194C96B1008D9A9D /* cobblestone.jpg in Resources */,
+				870AC3C5193BA57F00544F28 /* bg1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875B9776193118EA00857C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875B9784193118EA00857C5A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		875B9749193118E900857C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875B976C193118EA00857C5A /* ETViewController.m in Sources */,
+				875B975F193118EA00857C5A /* main.m in Sources */,
+				875B9763193118EA00857C5A /* ETAppDelegate.m in Sources */,
+				875B976F193118EA00857C5A /* ETMyScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		875B9774193118EA00857C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875B9786193118EA00857C5A /* MoneyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		875B977E193118EA00857C5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 875B974C193118E900857C5A /* Cheese Heaven */;
+			targetProxy = 875B977D193118EA00857C5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		875B975B193118EA00857C5A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				875B975C193118EA00857C5A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		875B9764193118EA00857C5A /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				875B9765193118EA00857C5A /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		875B9767193118EA00857C5A /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				875B9768193118EA00857C5A /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		875B9782193118EA00857C5A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				875B9783193118EA00857C5A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		875B9787193118EA00857C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		875B9788193118EA00857C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		875B978A193118EA00857C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Money/Cheese Heaven-Prefix.pch";
+				INFOPLIST_FILE = "Money/Cheese Heaven-Info.plist";
+				PRODUCT_NAME = "Cheese Heaven";
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		875B978B193118EA00857C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Money/Cheese Heaven-Prefix.pch";
+				INFOPLIST_FILE = "Money/Cheese Heaven-Info.plist";
+				PRODUCT_NAME = "Cheese Heaven";
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		875B978D193118EA00857C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Money.app/Money";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Money/Money-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MoneyTests/Cheese HeavenTests-Info.plist";
+				PRODUCT_NAME = "Cheese HeavenTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		875B978E193118EA00857C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Money.app/Money";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Money/Money-Prefix.pch";
+				INFOPLIST_FILE = "MoneyTests/Cheese HeavenTests-Info.plist";
+				PRODUCT_NAME = "Cheese HeavenTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		875B9748193118E900857C5A /* Build configuration list for PBXProject "Cheese Heaven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875B9787193118EA00857C5A /* Debug */,
+				875B9788193118EA00857C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		875B9789193118EA00857C5A /* Build configuration list for PBXNativeTarget "Cheese Heaven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875B978A193118EA00857C5A /* Debug */,
+				875B978B193118EA00857C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		875B978C193118EA00857C5A /* Build configuration list for PBXNativeTarget "Cheese HeavenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				875B978D193118EA00857C5A /* Debug */,
+				875B978E193118EA00857C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 875B9745193118E900857C5A /* Project object */;
+}
